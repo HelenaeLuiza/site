@@ -1,0 +1,111 @@
+/* Estilos para o corpo do site */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Garamond;
+}
+
+body {
+    font-family: Garamond, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #E9D294;
+    color: #000000;
+    padding: 0%;
+    text-align: center;
+}
+
+section img {
+    width: 100vw;
+
+}
+
+.inserir div {
+    background-color: #8BA286;
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.inserir div p {
+    font-size: 25px;
+    color: #f0f0f0;
+}
+
+
+.acessorio {
+    background-color: #E9D294;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 400px;
+    gap: 25px;
+}
+
+
+.acessorio img {
+    background-color: #E9F2EA;
+    width: 350px;
+    height: 350px;
+
+}
+
+.saude {
+    background-color: #E9F2EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 400px;
+    gap: 25px;
+}
+
+.saude img {
+    
+    width: 350px;
+    height: 350px;
+
+}
+
+.paragrafo-gato{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.paragrafo-gato p{
+    width: 250px;
+}
+
+.paragrafo-gato img{
+    width: 250px;
+    height: 250px;
+    
+}
+
+.servicos{
+    display: flex;
+    margin-left: 200px;
+}
+
+.servicos h2{
+
+    font-size: 16px;
+}
+
+button{
+    background-color: #000000;
+    color: #E9D294;
+    width: 210px;
+    height: 23px;
+    cursor: pointer;
+}
+
